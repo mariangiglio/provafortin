@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/h1_hero.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/h1_hero.png");
   background-position: 50% 50%;
 }
 
