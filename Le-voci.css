@@ -3,91 +3,103 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 565px;
+  min-height: 694px;
 }
 
 .u-section-1 .u-text-1 {
-  letter-spacing: 6px;
-  font-weight: 600;
-  margin: 54px 34px 0 429px;
-}
-
-.u-section-1 .u-text-2 {
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   font-size: 4.5rem;
-  margin: -255px 775px 176px 54px;
+  width: 308px;
+  margin: 28px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin: 12px 243px 14px 261px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
-    margin-top: 341px;
-    margin-right: 0;
-    margin-left: 263px;
+    margin-top: 327px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 629px;
-    margin-left: 0;
+    width: 677px;
+    margin: -65px 143px -208px 161px;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-top: 384px;
-    margin-left: 43px;
+    margin-top: 52px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 409px;
+    margin: 20px 33px 60px 51px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 777px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-top: 345px;
-    margin-left: 0;
+    font-size: 2.25rem;
+    margin-top: 116px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 2.25rem;
-    margin-top: -661px;
-    margin-right: 229px;
+    width: 540px;
+    margin: 189px 0 -212px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 593px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-top: 424px;
+    font-size: 3rem;
+    width: auto;
+    margin-top: 2px;
+    margin-right: 110px;
+    margin-left: 16px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 1.875rem;
-    margin-top: -337px;
-    margin-right: 29px;
+    width: 340px;
+    margin-top: 20px;
+    margin-bottom: 28px;
   }
 } .u-section-2 {
   background-image: none;
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 3315px;
+  min-height: 5079px;
 }
 
 .u-section-2 .u-list-1 {
   margin-top: 15px;
-  margin-bottom: 60px;
-  min-height: 900px;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: repeat(2, 50%);
-  min-height: 4680px;
-  grid-auto-columns: 50%;
-  grid-gap: 0px;
+  grid-template-columns: repeat(2, calc(50% - 0.5px));
+  min-height: 900px;
+  grid-auto-columns: calc(50% - 0.5px);
+  grid-gap: 1px;
 }
 
 .u-section-2 .u-list-item-1 {
@@ -564,14 +576,6 @@
     min-height: 3172px;
   }
 
-  .u-section-2 .u-list-1 {
-    min-height: 79px;
-  }
-
-  .u-section-2 .u-repeater-1 {
-    min-height: 3859px;
-  }
-
   .u-section-2 .u-text-1 {
     margin-right: -12px;
     margin-left: 0;
@@ -776,7 +780,7 @@
 @media (max-width: 991px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
   }
 }
 
@@ -971,18 +975,16 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 1887px;
+  min-height: 2262px;
 }
 
 .u-section-3 .u-list-1 {
-  margin-top: 15px;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 0 15px;
 }
 
 .u-section-3 .u-repeater-1 {
   grid-template-columns: repeat(2, 50%);
-  min-height: 403px;
+  min-height: 2247px;
   grid-auto-columns: 50%;
   grid-gap: 0px;
 }
@@ -1007,7 +1009,6 @@
 }
 
 .u-section-3 .u-text-2 {
-  font-size: 1.125rem;
   margin: 15px 15px 0 43px;
 }
 
@@ -1129,7 +1130,6 @@
 }
 
 .u-section-3 .u-text-12 {
-  font-size: 1.125rem;
   margin: 15px 15px 0 43px;
 }
 
@@ -1162,11 +1162,12 @@
   }
 
   .u-section-3 .u-list-1 {
+    margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
-    min-height: 332px;
+    min-height: 1853px;
   }
 
   .u-section-3 .u-text-1 {
@@ -1256,10 +1257,6 @@
     font-size: 3.75rem;
   }
 
-  .u-section-3 .u-text-2 {
-    font-size: 1rem;
-  }
-
   .u-section-3 .u-text-3 {
     font-size: 3.75rem;
   }
@@ -1282,10 +1279,6 @@
 
   .u-section-3 .u-text-11 {
     font-size: 3.75rem;
-  }
-
-  .u-section-3 .u-text-12 {
-    font-size: 1rem;
   }
 
   .u-section-3 .u-text-13 {

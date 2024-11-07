@@ -238,11 +238,15 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 949px;
+    min-height: 1301px;
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 378px;
+    min-height: 383px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-top: 20px;
   }
 }
 
@@ -283,10 +287,14 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 119px;
+  }
+
   .u-section-3 .u-text-1 {
     width: auto;
-    margin-top: 0;
-    margin-bottom: 60px;
+    margin-top: 43px;
+    margin-bottom: 43px;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 50vw;
@@ -385,6 +393,7 @@
 .u-section-4 .u-table-cell-6 {
   text-transform: none;
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-7 {
@@ -413,6 +422,7 @@
 .u-section-4 .u-table-cell-12 {
   text-transform: none;
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-13 {
@@ -427,6 +437,7 @@
 .u-section-4 .u-table-cell-15 {
   text-transform: none;
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-btn-1 {
@@ -531,6 +542,7 @@
 
 .u-section-4 .u-table-cell-21 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-22 {
@@ -570,6 +582,7 @@
 
 .u-section-4 .u-table-cell-27 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-28 {
@@ -590,6 +603,7 @@
 
 .u-section-4 .u-table-cell-30 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-btn-6 {
@@ -632,6 +646,7 @@
 
 .u-section-4 .u-table-cell-36 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-37 {
@@ -644,6 +659,7 @@
 
 .u-section-4 .u-table-cell-39 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-40 {
@@ -663,6 +679,7 @@
 
 .u-section-4 .u-table-cell-42 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-btn-9 {
@@ -683,6 +700,7 @@
 
 .u-section-4 .u-table-cell-45 {
   font-weight: 600;
+  font-style: normal;
 }
 
 .u-section-4 .u-table-cell-46 {
@@ -747,7 +765,6 @@
   }
 
   .u-section-4 .u-table-cell-6 {
-    font-style: normal;
     border-style: double;
   }
 
@@ -772,7 +789,6 @@
   }
 
   .u-section-4 .u-table-cell-12 {
-    font-style: normal;
     border-style: double;
   }
 
@@ -785,7 +801,6 @@
   }
 
   .u-section-4 .u-table-cell-15 {
-    font-style: normal;
     border-style: double;
   }
 
@@ -804,34 +819,6 @@
   .u-section-4 .u-group-elements-2 {
     width: 940px;
     margin-right: 0;
-  }
-
-  .u-section-4 .u-table-cell-21 {
-    font-style: normal;
-  }
-
-  .u-section-4 .u-table-cell-27 {
-    font-style: normal;
-  }
-
-  .u-section-4 .u-table-cell-30 {
-    font-style: normal;
-  }
-
-  .u-section-4 .u-table-cell-36 {
-    font-style: normal;
-  }
-
-  .u-section-4 .u-table-cell-39 {
-    font-style: normal;
-  }
-
-  .u-section-4 .u-table-cell-42 {
-    font-style: normal;
-  }
-
-  .u-section-4 .u-table-cell-45 {
-    font-style: normal;
   }
 }
 
@@ -854,7 +841,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1811px;
+    min-height: 1894px;
   }
 
   .u-section-4 .u-tabs-1 {
