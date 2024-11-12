@@ -44683,10 +44683,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
+  font-weight: 400;
   font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 700;
-  background-image: none;
 }
 
 .u-header .u-sidenav-1 {
@@ -44721,10 +44720,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 @media (max-width: 575px) {
-  .u-header .u-menu-1 {
-    width: auto;
-  }
-
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 8px);
   }
@@ -44775,21 +44770,27 @@ a.u-link.u-text-hover-grey-90:hover {
   white-space: nowrap;
   height: 42px;
   min-height: 16px;
-  width: 217px;
-  min-width: 138px;
+  width: 304px;
+  min-width: 199px;
   margin: 0 23px 0 auto;
 }
 
 .u-footer .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
+  height: 0;
 }
 
 .u-footer .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
+  color: rgb(59, 89, 152) !important;
 }
 
 .u-footer .u-icon-3 {
-  color: rgb(0, 122, 185) !important;
+  height: 100%;
+  color: rgb(197, 54, 164) !important;
+}
+
+.u-footer .u-icon-4 {
+  height: 100%;
+  color: rgb(210, 34, 21) !important;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -44825,7 +44826,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 217px;
     margin-right: 0;
   }
 }
